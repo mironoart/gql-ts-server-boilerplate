@@ -5,6 +5,7 @@
   "devDependencies": {
     "@types/bcrypt": "^3.0.0",
     "@types/bcryptjs": "^2.4.2",
+    "@types/ioredis": "^4.0.4",
     "@types/jest": "^23.3.12",
     "@types/node": "^9.6.6",
     "@types/uuid": "^3.4.4",
@@ -26,6 +27,7 @@
     "graphql-request": "^1.8.2",
     "graphql-tools": "^4.0.3",
     "graphql-yoga": "^1.16.9",
+    "ioredis": "^4.3.0",
     "pg": "^7.4.1",
     "reflect-metadata": "^0.1.12",
     "typeorm": "0.2.11",
