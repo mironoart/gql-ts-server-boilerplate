@@ -58,7 +58,7 @@ export const resolvers: ResolverMap = {
 
       await user.save();
       // after user registered we need to make proving link:
-      const link = await createConfirmEmailLink(url, user.id, redis);
+      await createConfirmEmailLink(url, user.id, redis);
       return null;
     }
   }
